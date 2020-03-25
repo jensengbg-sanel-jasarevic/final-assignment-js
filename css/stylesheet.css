@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, 'Varela Round', sans-serif;
+    color: #000;
+    background: #fff;
+  }
+
+  .wrapper{
+      display: grid;
+      grid-template-columns: 25% 50% 25%;
+      grid-template-areas: ". main .";
+    }
+    
+    main{
+        grid-area: main;
+        display: grid;
+        grid-template-rows: 25% 50% 25%;
+        grid-template-areas: "."
+                            "main-content"
+                            "."; 
+        height: 100vh;
+        text-align: center;
+    }
+
+    .main-content{
+        grid-area: main-content;
+    }
+
+  #flickr-output{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  #flickr-output img{
+    width: 9rem;
+    height: 9rem;
+    margin: 1rem;
+  }
+
+  #light-box{
+    visibility: hidden;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+  }
+  
+  #light-box.display-photo{
+    opacity: 1;
+    visibility: visible;
+  }
+    
+  #img-lightbox{
+    width: 100%;
+    margin: auto;
+  }
+
+  /*Horizontally centers a block element (like div), use margin: auto;*/
+  #img-lightbox img{
+    display: block;
+    margin: auto;
+}
+
+  #light-box #close-button{
+    position: absolute;
+    right: 2rem;
+    color: #000;
+    font-size: 8rem;
+    cursor: pointer;
+  }
