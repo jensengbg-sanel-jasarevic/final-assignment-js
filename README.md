@@ -27,5 +27,3 @@ Det viktigaste är inte exakt hur ni skriver er kod utan att ni kan motivera var
 * Din sida är responsiv (d.v.s fungerar både i mobil och desktop)
 
 Inlämning sker via Github och Learnpoint. Ladda upp ditt projekt på Github. Gå sedan in på Learnpoint och under innehåll finns det en inlämningsuppgift där du ska posta din länk till ditt repo. Ifall du behöver hjälp med Github så fråga på lektionen!
-
-**Inlämning senast**: 25/3 23:59 
