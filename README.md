@@ -1,3 +1,5 @@
+Github page: https://jensengbg-sanel-jasarevic.github.io/flickr-api-assignment/
+
 # Individuell inlämningsuppgift
 
 ## Instruktioner
