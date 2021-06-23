@@ -56,18 +56,18 @@
     visibility: visible;
   }
     
-  #img-lightbox{
+  #image{
     width: 100%;
     margin: auto;
   }
 
   /*Horizontally centers a block element (like div), use margin: auto;*/
-  #img-lightbox img{
+  #image img{
     display: block;
     margin: auto;
 }
 
-  #light-box #close-button{
+  #light-box #close{
     position: absolute;
     right: 2rem;
     color: #000;
